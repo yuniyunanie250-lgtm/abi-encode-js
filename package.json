@@ -1,0 +1,14 @@
+{
+  "name": "abi-encode-js",
+  "version": "0.1.0",
+  "description": "Build JSON-RPC batches and pair responses by id",
+  "type": "module",
+  "bin": { "abi-encode-js": "./src/cli.mjs" },
+  "exports": "./src/batch.mjs",
+  "files": ["src"],
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node src/cli.mjs", "test": "node --test test/" },
+  "keywords": ["json-rpc", "ethereum", "batch", "rpc"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/yuniyunanie250-lgtm/abi-encode-js.git" }
+}
